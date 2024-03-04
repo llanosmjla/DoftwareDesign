@@ -37,6 +37,8 @@ public class Delivery {
         for (Drone drone : drones) {
             for (Location location : locations) {
 
+
+
                 if (location.name.equals(locationFirst)) {
                     currentWeight = drone.weight;
                     //System.out.println("Drone " + drone.name + " has " + currentWeight + " weight");
@@ -65,7 +67,21 @@ public class Delivery {
                     System.out.println("Delivering " + location.name + " with " + drone.name + " on trip " + totalTravel);
 
                     //visitedLocations.remove(location);
+                }else{
+
                 }
+            }
+        }
+        LinkedList<Drone> usedDrone = new LinkedList<>();
+        //drone1 = 10
+        //drone2 = 40
+
+        //location1 = 30
+        //location2 = 10
+        //location3 = 5
+        for (Drone drone : drones) {
+            for (Location location : locations) {
+
             }
         }
     }

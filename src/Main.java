@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Delivery delivery = new Delivery();
         LinkedList<Location> locations = new LinkedList<>();
-        locations.add(new Location("Location 1", 10));
-        locations.add(new Location("Location 2", 20));
-        locations.add(new Location("Location 3", 30));
+        locations.add(new Location("Location 1", 110));
+        locations.add(new Location("Location 2", 120));
+        locations.add(new Location("Location 3", 130));
 
         locations.add(new Location("Location 4", 40));
         locations.add(new Location("Location 5", 50));

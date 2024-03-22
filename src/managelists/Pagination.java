@@ -79,9 +79,16 @@ public class Pagination {
 
     // setters and getters
 
-    public int getCurrentNumberOfPages() {
+    /*public int getCurrentNumberOfPages() {
+        int size = itemList.getItems().size();
         return (itemList.getItems().size() >= 1 && itemList.getItems().size() < getRequestPageSize() ? 1 :
                 (int) Math.ceil((double) itemList.getItems().size() / getRequestPageSize()));
+    }*/
+    public int getCurrentNumberOfPages() {
+        int size = itemList.getItems().size();
+        double requestPageSize = (double) size / getRequestPageSize();
+        int ceil = (int) Math.ceil(requestPageSize);
+        return (size >= 1 && size < getRequestPageSize() ? 1 : ceil);
     }
 
     public void setCurrentNumberOfPage(int currentNumberOfPage) {

@@ -1,0 +1,14 @@
+Limber,23,78
+Jose,24,67
+Luis,20,89
+Brayan,22,87
+Manuel,20,89
+Samuel,21,99
+Jose,22,89
+Limber,20,88
+Jose,24,78
+Luis,20,89
+Brayan,23,87
+Manuel,24,89
+Samuel,22,96
+Jose,22,97

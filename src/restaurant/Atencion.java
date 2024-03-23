@@ -1,13 +1,11 @@
 package restaurant;
 
 import restaurant.elementos.Cliente;
-import restaurant.elementos.Items;
 import restaurant.gestion.GestionCliente;
 import restaurant.gestion.GestionMenu;
 import restaurant.elementos.Mesa;
 import restaurant.gestion.GestionMesa;
 import restaurant.gestion.GestionOrden;
-import ventas.Orden;
 
 import java.util.LinkedList;
 import java.util.Scanner;

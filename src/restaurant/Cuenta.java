@@ -2,10 +2,8 @@ package restaurant;
 
 import restaurant.elementos.Items;
 import restaurant.gestion.GestionOrden;
-import ventas.Orden;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
